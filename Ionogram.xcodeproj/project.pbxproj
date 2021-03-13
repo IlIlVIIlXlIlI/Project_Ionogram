@@ -11,6 +11,8 @@
 		C4C7C15925FD03B100877D2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C7C15825FD03B100877D2F /* ContentView.swift */; };
 		C4C7C15B25FD03B200877D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C7C15A25FD03B200877D2F /* Assets.xcassets */; };
 		C4C7C15E25FD03B200877D2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C7C15D25FD03B200877D2F /* Preview Assets.xcassets */; };
+		C4C7C16E25FD1C7300877D2F /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C7C16D25FD1C7300877D2F /* ImageDownloader.swift */; };
+		C4C7C17025FD1CC800877D2F /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C7C16F25FD1CC800877D2F /* URLImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C4C7C15A25FD03B200877D2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4C7C15D25FD03B200877D2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4C7C15F25FD03B200877D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C7C16D25FD1C7300877D2F /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		C4C7C16F25FD1CC800877D2F /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +56,13 @@
 		C4C7C15525FD03B100877D2F /* Ionogram */ = {
 			isa = PBXGroup;
 			children = (
+				C4C7C16D25FD1C7300877D2F /* ImageDownloader.swift */,
 				C4C7C15625FD03B100877D2F /* IonogramApp.swift */,
 				C4C7C15825FD03B100877D2F /* ContentView.swift */,
 				C4C7C15A25FD03B200877D2F /* Assets.xcassets */,
 				C4C7C15F25FD03B200877D2F /* Info.plist */,
 				C4C7C15C25FD03B200877D2F /* Preview Content */,
+				C4C7C16F25FD1CC800877D2F /* URLImage.swift */,
 			);
 			path = Ionogram;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4C7C15925FD03B100877D2F /* ContentView.swift in Sources */,
+				C4C7C16E25FD1C7300877D2F /* ImageDownloader.swift in Sources */,
+				C4C7C17025FD1CC800877D2F /* URLImage.swift in Sources */,
 				C4C7C15725FD03B100877D2F /* IonogramApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
