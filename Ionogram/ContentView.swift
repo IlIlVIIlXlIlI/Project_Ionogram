@@ -16,22 +16,26 @@ struct ContentView: View {
     
     var body: some View {
         
-        VStack {
+        TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
             VStack {
-                URLImage(url: "https://wdc.nict.go.jp/ionog/ionogram/nowpng/png/allsite.png")
-                    .aspectRatio(contentMode: .fit)
-            }
-            
-            HStack {
+                VStack {
+                    URLImage(url: "https://wdc.nict.go.jp/ionog/ionogram/nowpng/png/allsite.png")
+                        .aspectRatio(contentMode: .fit)
+                }
+                
+                HStack {
+                    Spacer()
+                    ReloadImageView()
+                        .padding(10)
+                }
+                .padding()
                 Spacer()
-                ReloadImageView()
-                    .padding(10)
+                // 質問のテキストを表示
+                QuestionView()
+                Spacer()
             }
-            .padding()
-            Spacer()
-            // 質問のテキストを表示
-            QuestionView()
-            Spacer()
+            .tabItem { Text("イオノグラム") }.tag(1)
+            Text("Tab Content 2").tabItem { Text("潮汐") }.tag(2)
         }
     }
 }
