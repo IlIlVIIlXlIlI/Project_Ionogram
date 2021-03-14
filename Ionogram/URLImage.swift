@@ -25,7 +25,9 @@ struct URLImage: View {
             }
         } else {
             return VStack {
-                Image(uiImage: UIImage(systemName: "icloud.and.arrow.down")!).resizable()
+                Image(uiImage: UIImage(systemName: "network")!)
+                    .resizable()
+                    
             }
         }
     }

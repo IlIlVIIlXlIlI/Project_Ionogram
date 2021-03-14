@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C419176425FE8E2200A595AC /* ReloadImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419176325FE8E2200A595AC /* ReloadImageView.swift */; };
+		C419176625FE8F8000A595AC /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C419176525FE8F8000A595AC /* QuestionView.swift */; };
 		C4C7C15725FD03B100877D2F /* IonogramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C7C15625FD03B100877D2F /* IonogramApp.swift */; };
 		C4C7C15925FD03B100877D2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C7C15825FD03B100877D2F /* ContentView.swift */; };
 		C4C7C15B25FD03B200877D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C7C15A25FD03B200877D2F /* Assets.xcassets */; };
@@ -16,9 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C419176325FE8E2200A595AC /* ReloadImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReloadImageView.swift; sourceTree = "<group>"; };
+		C419176525FE8F8000A595AC /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		C4C7C15325FD03B100877D2F /* Ionogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ionogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C7C15625FD03B100877D2F /* IonogramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IonogramApp.swift; sourceTree = "<group>"; };
-		C4C7C15825FD03B100877D2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4C7C15825FD03B100877D2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		C4C7C15A25FD03B200877D2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4C7C15D25FD03B200877D2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4C7C15F25FD03B200877D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 		C4C7C15525FD03B100877D2F /* Ionogram */ = {
 			isa = PBXGroup;
 			children = (
+				C419176325FE8E2200A595AC /* ReloadImageView.swift */,
 				C4C7C16D25FD1C7300877D2F /* ImageDownloader.swift */,
 				C4C7C15625FD03B100877D2F /* IonogramApp.swift */,
 				C4C7C15825FD03B100877D2F /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				C4C7C15F25FD03B200877D2F /* Info.plist */,
 				C4C7C15C25FD03B200877D2F /* Preview Content */,
 				C4C7C16F25FD1CC800877D2F /* URLImage.swift */,
+				C419176525FE8F8000A595AC /* QuestionView.swift */,
 			);
 			path = Ionogram;
 			sourceTree = "<group>";
@@ -148,6 +154,8 @@
 				C4C7C16E25FD1C7300877D2F /* ImageDownloader.swift in Sources */,
 				C4C7C17025FD1CC800877D2F /* URLImage.swift in Sources */,
 				C4C7C15725FD03B100877D2F /* IonogramApp.swift in Sources */,
+				C419176625FE8F8000A595AC /* QuestionView.swift in Sources */,
+				C419176425FE8E2200A595AC /* ReloadImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

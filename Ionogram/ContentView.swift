@@ -8,11 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    
+    // トグルが開いているかどうか
+    @State private var showDetail = false
+    
+   
+    
     var body: some View {
+        
         VStack {
-            URLImage(url: "https://wdc.nict.go.jp/ionog/ionogram/nowpng/png/allsite.png")
-                .aspectRatio(contentMode: .fit)
+            VStack {
+                URLImage(url: "https://wdc.nict.go.jp/ionog/ionogram/nowpng/png/allsite.png")
+                    .aspectRatio(contentMode: .fit)
+            }
+            
+            HStack {
+                Spacer()
+                ReloadImageView()
+                    .padding(10)
+            }
+            .padding()
+            Spacer()
+            // 質問のテキストを表示
+            QuestionView()
+            Spacer()
         }
     }
 }
@@ -22,3 +41,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+
+
